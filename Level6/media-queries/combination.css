@@ -1,0 +1,11 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+}
+@media screen and (min-width:250px) and (max-width:300px) {
+    .box{
+        border-radius: 50%;
+    }
+}

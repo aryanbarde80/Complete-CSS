@@ -1,0 +1,12 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+}
+@media screen and (max-width:300px) {
+    .box{
+        height: 50px;
+        width: 50px;
+    }
+}
