@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin-left: 5px;
+}
+
+#heading{
+   margin-left:20px; 
+}
+
+#container{
+    height: 250px;
+    width: 335px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box1{
+    background-color: blueviolet;
+}
+
+#box2{
+    background-color: darkseagreen;
+}
+
+#box3{
+    background-color: deeppink;
+}
+
+#box4{
+    background-color: lightskyblue;
+}

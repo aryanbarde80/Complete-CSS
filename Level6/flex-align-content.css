@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin-left: 5px;
+}
+
+#heading{
+   margin-left:20px; 
+}
+
+#container{
+    height: 250px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    display: flex;
+    align-content: center;
+}
+
+#box1{
+    background-color: rgb(183, 13, 16);
+}
+
+#box2{
+    background-color: rgb(54, 180, 54);
+}
+
+#box3{
+    background-color: rgb(155, 31, 97);
+}
+
+#box4{
+    background-color: rgb(8, 96, 151);
+}

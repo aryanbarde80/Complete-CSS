@@ -1,0 +1,37 @@
+.box{
+    height: 100px;
+    width: 200px;
+    border: 3px solid black;
+    margin-left: 5px;
+}
+
+#heading{
+   margin-left:20px; 
+}
+
+#container{
+    height: 150px;
+    width: 2000px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#box1{
+    background-color: blueviolet;
+}
+
+#box2{
+    background-color: darkseagreen;
+}
+
+#box3{
+    background-color: deeppink;
+}
+
+#box4{
+    background-color: lightskyblue;
+}
