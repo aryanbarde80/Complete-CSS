@@ -1,0 +1,17 @@
+.box{
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#box1{background-color: indianred}
+#box1:hover{transform: skew(45deg);}
+#box2{background-color: violet;}
+#box2:hover{transform: skew(90deg);}
